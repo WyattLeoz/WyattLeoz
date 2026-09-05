@@ -1,7 +1,6 @@
 # Loh Kai Zhe
 
-**Backend / full-stack developer** — Information Systems @ Singapore Management University, Singapore.
-Looking for a **2027 software engineering internship**.
+**Backend / full-stack developer** — Software Engineer @ Singapore Management University, Singapore.
 
 Most of what I build is server-side: Spring Boot and NestJS APIs, relational schema and migrations,
 and the Docker / Kubernetes / Terraform layer that puts them in front of users. I like the parts of a
