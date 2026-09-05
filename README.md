@@ -17,6 +17,20 @@ Portfolio → **[kzdev-website.web.app](https://kzdev-website.web.app/)**
 Some of these are team repositories owned by teammates, so they don't show up in the repository grid
 on this profile. Commit counts below are mine.
 
+### [Node3](https://github.com/WyattLeoz/NodeCubed) · TypeScript · NestJS · gRPC · RabbitMQ
+Real-time collaborative ideation platform — teams map ideas on a shared canvas, expand any idea with
+AI, and export the result as a decision-ready document. **1st place of 80 teams — Dell Cloud Native
+Award 2026**, and selected to represent SMU at Dell InnovateFest.
+
+Published with squashed history, so commits are not attributed. My work was three of the twelve backend
+services: the **real-time collaboration service** (`apps/realtime` — live cursors, node selection and
+collaborative node creation broadcast into JWT-authenticated Socket.IO rooms, persisted through typed
+gRPC), the **event-driven AI generation orchestrator** (`apps/idea-generator` — RabbitMQ topic exchanges
+publishing loading, completed and error events), and the **document export pipeline** (`apps/converter`
+— pulls generated markdown from S3, renders it to PDF, republishes a converted event).
+
+`TypeScript` `NestJS` `gRPC` `RabbitMQ` `PostgreSQL` `Redis` `Socket.IO` `Docker` `Kubernetes`
+
 ### [The Six Seven](https://github.com/tiongg/csd) · Java · Spring Boot · PostgreSQL
 Learning management system with contributor-authored courses, quizzes, and trend visualisation.
 **95 commits** — I worked across the Spring Boot service layer and built the backend test suite:
